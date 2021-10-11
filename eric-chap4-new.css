@@ -1,0 +1,121 @@
+body {
+    background-color: #9C835F;
+    
+}
+
+.header img {
+    display: inline-block;
+}
+
+/* style for link to landing page */
+.icon {
+    display: inline-block;
+    position: relative;
+    margin: 0 3em 0 0;
+}
+
+.text-card {
+    background: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.icon img {
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.icon:hover img {
+    transform: scale(1.1);
+} 
+/* end of style for link to landing page */
+
+.logo {
+    margin: 0 3em 0 0;
+}
+
+.header h1 {
+    display: inline-block;
+    color: #F9B23D;
+}
+
+
+/* Game area */
+.player-name {
+    display: grid;
+    justify-content: center;
+}
+
+.choices {
+    display: grid;
+    justify-content: center;
+}
+
+.choice-tool {
+    background: none;
+    border: none;
+}
+
+.choice-tool img {
+    height: 10vh;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.choice-tool img:hover {
+    background-color: burlywood;
+    transform: scale(1.1);
+    transform: rotate(20deg);
+}
+
+/* Center navigation */
+
+#h1 {
+    color: red;
+}
+.refresh img {
+    height: 10vh;
+    transition: all 0.4s ease-in-out 0s;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    right: 50%;
+}
+
+.refresh img:hover {
+    background-color: burlywood;
+    transform: scale(1.1);
+    transform: rotate(20deg);
+}
+
+/* Pseudo item */
+
+.winBox {
+    height: 100px;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    background: #4C9654;
+    border-radius: 10px;
+    margin:  15px auto;
+    padding: 15px;
+    
+}
+
+.drawBox {
+    height: 100px;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    border-radius: 10px;
+    margin:  15px auto;
+    padding: 15px;
+    background: #035B0C;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing - Eric Challenge Chapter 4</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/logo-suit.png" type="image/x-icon">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #9C835F;
+        }
+
+        h1 {
+            color: #F9B23D;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .container {
+            background-color: #9b6f32;
+            position: fixed;
+            top: 40px;
+            left: 20px;
+            right: 20px;
+            bottom: 40px;
+            display: grid;
+        }
+
+        .text-card {
+            background: none;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: flex;
+        }
+
+        .card {
+            position: relative;
+            top: 100px;
+            left: 50%;
+            width: 10vh;
+            background: none;
+            border: none;
+            overflow: hidden;
+        }
+
+        .card img {
+            transition: all 0.4s ease-in-out 0s;
+        }
+
+        .card:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container justify-content-center">
+        <h1 class="mt-5">ROCK PAPER SCISSORS GAME</h1>
+        <h3>wanna try the game?<br>click the logo button</h3>
+        <div class="card text-center">
+            <img src="/assets/logo-suit.png" alt="game">
+            <a class="text-card nav-link" href="eric-chap4-new.html"></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
